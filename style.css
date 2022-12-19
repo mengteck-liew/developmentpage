@@ -1,0 +1,23 @@
+details {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+  }
+  
+  details summary {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+  }
+  details summary:after {
+    content: "+";
+    color: black;
+  }
+  details > summary {
+    list-style-type: ' + ';
+}
+
+details[open] > summary {
+    list-style-type: ' − ';
+}
