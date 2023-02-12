@@ -1,5 +1,5 @@
 details {
-    background-color: black;
+    background-color: coral;
     padding: 5px;
     color: white;
     font-size: 15px;
@@ -9,9 +9,9 @@ details {
     padding: 10px;
     font-size: 25px;
     color: white;
+    cursor: pointer;
   }
   details summary:after {
-    content: "+";
     color: black;
   }
   details > summary {
